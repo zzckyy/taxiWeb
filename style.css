@@ -32,17 +32,39 @@ body .header .header-kiri{
     font-family: Karla;
     font-size:large;
     letter-spacing: 5px;
+    
+}
+
+
+
+body .header .header-kanan button{
+    background-color: transparent;
+    color: whitesmoke;
+    border: 0px;
+    font-size: medium;
+    width: 80px;
+}
+
+.header .header-kanan button:hover{
+    color: black;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 3px;
 }
 
 ul{
     display: inline-flex;
     list-style-type: none;
+    
 }
 ul li{
-    
+    box-sizing: border-box;
+    padding: 3px;
     margin-right: 50px;
     font-size: large;
     text-decoration: none;
+    text-align: center;
+    
 }
 
 .isi-web{
@@ -85,4 +107,10 @@ ul li{
     border: 0px;
     font-size: medium;
     font-weight: bold;
+}
+
+.isi-web button:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition:ease;
 }
