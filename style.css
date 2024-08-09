@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Exa:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Exa:wght@100..900&family=Major+Mono+Display&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Karla;
+}
+
+body{
+    background-image: url(img_up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+body .header .header-kiri{
+    font-family: Karla;
+    font-size:large;
+    letter-spacing: 5px;
+}
+
+ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+ul li{
+    
+    margin-right: 50px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.isi-web{
+    margin: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.isi-web .isi-heading{
+    position: absolute;
+    top: 350px;
+    right: 200px;
+    text-align: right;
+    color: whitesmoke;
+    width: 500px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.isi-web .isi-body{
+    color: rgb(131, 131, 131);
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    text-align: right;
+    width: 300px;
+}
+
+.isi-web button{
+    position: absolute;
+    top: 550px;
+    right: 200px;
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.137);
+    color: whitesmoke;
+    border: 0px;
+    font-size: medium;
+    font-weight: bold;
+}
